@@ -43,11 +43,4 @@ except ValueError:
     print("Error: Please enter valid numbers")
 
 # Example of other basic Python concepts
-print("\n--- Other Basic Concepts ---")
-
-# Lists and loops
-fruits = ["apple", "banana", "orange", "grape"]
-print("Fruits in the list:")
-for i, fruit in enumerate(fruits, 1):
-    print(f"{i}. {fruit}")
-
+print("\nVibeCodingTR")
