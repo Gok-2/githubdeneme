@@ -51,20 +51,3 @@ print("Fruits in the list:")
 for i, fruit in enumerate(fruits, 1):
     print(f"{i}. {fruit}")
 
-# Dictionary
-person = {
-    "name": "Alice",
-    "age": 25,
-    "city": "New York"
-}
-print(f"\nPerson info: {person['name']} is {person['age']} years old and lives in {person['city']}")
-
-# Simple function with conditional
-def check_even_odd(number):
-    if number % 2 == 0:
-        return f"{number} is even"
-    else:
-        return f"{number} is odd"
-
-print(check_even_odd(7))
-print(check_even_odd(12))
